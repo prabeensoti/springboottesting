@@ -1,2 +1,5 @@
-package com.example.springboottesting.service;public class HelloService {
+package com.example.springboottesting.service;
+
+public interface HelloService {
+    String get();
 }

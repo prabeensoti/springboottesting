@@ -1,2 +1,6 @@
-package com.example.springboottesting.repository;public class HelloRepository {
+package com.example.springboottesting.repository;
+
+public interface HelloRepository {
+
+    String get();
 }
